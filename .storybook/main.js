@@ -2,6 +2,9 @@
 
 module.exports = {
   //👇 Location of our stories
+  core: {
+    builder: 'webpack5',
+  },
   stories: ['../src/components/**/*.stories.js'],
   addons: [
     '@storybook/addon-links',
